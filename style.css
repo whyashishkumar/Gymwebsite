@@ -1,0 +1,89 @@
+body{
+    font-family: 'Alumni Sans Inline One', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('images/Gymbackground.jpg');
+}
+header{
+    box-sizing: border-box;
+}
+.left{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    display: inline-block;
+}
+.mid{
+    width: 40%;
+    margin: 20px auto;
+    display: block;
+}
+.right{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: inline-block;
+}
+.left img{
+    width: 165px;
+    height: 165px;
+}
+.Nav{
+    display: inline-block;
+}
+.Nav li{
+    display: inline-block;
+    font-size: 25px;
+}
+.Nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+}
+.Nav li a:hover{
+    color: grey;
+}
+.Nav li a:active{
+    text-decoration: underline;
+}
+.btn{
+    background: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Alumni Sans Inline One', cursive;
+    border: 2px solid rgb(214, 206, 206);
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 2px 5px;
+}
+.btn:hover{
+    color: grey;
+    cursor: pointer;
+}
+.container{
+    display: block;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 45%;
+    margin: 150px auto;
+    padding: 45px 50px;
+}
+.container h1{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.format input{
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    margin: 5px auto;
+    padding: 5px 8px;
+    width: 33%;
+}
+.container button{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
